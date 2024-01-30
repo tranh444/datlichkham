@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:title="Quản lí">
+            <menu>
+                <item
+                    android:id="@+id/list_order_today"
+                    android:title="Danh sách đặt lịch hôm nay"
+                    app:showAsAction="always"
+                    android:icon="@drawable/list_order_today"/>
+                <item
+                    android:id="@+id/list_examination_today"
+                    android:title="Danh sách lịch khám hôm nay"
+                    app:showAsAction="always"
+                    android:icon="@drawable/listorder"/>
+                <item
+                    android:id="@+id/m_managerDoctor"
+                    android:title="Quản lí bác sĩ"
+                    android:icon="@drawable/medical_team"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerFile"
+                    android:title="Quản lí hồ sơ bệnh nhân"
+                    android:icon="@drawable/icon_file"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerTimeWork"
+                    android:title="Quản lí ca làm việc"
+                    android:icon="@drawable/icon_time_work"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerCategory"
+                    android:title="Quản lí loại dịch vụ khám"
+                    android:icon="@drawable/categorization"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerService"
+                    android:title="Quản lí chuyên khoa"
+                    android:icon="@drawable/icon_service"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerRoom"
+                    android:title="Quản lí phòng khám"
+                    android:icon="@drawable/open_door"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/Statistical"
+                    android:title="Thống kê"
+                    android:icon="@drawable/statistical"
+                    app:showAsAction="always"/>
+
+            </menu>
+        </item>
+    </group>
+
+    <group>
+        <item android:title="Tài khoản">
+            <menu>
+                <item android:id="@+id/m_AccountDoctor"
+                    app:showAsAction="always"
+                    android:icon="@drawable/icon_doctor"
+                    android:title="Danh sách tài khoản bác sĩ"/>
+                <item android:id="@+id/m_AccountUser"
+                    app:showAsAction="always"
+                    android:icon="@drawable/ac_m"
+                    android:title="Danh sách tài khoản người dùng"/>
+                <item android:id="@+id/m_logOut"
+                    android:icon="@drawable/ic_logout"
+                    app:showAsAction="always"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+</menu>

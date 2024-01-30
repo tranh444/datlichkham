@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/m_lich_kham"
+        android:icon="@drawable/date"
+        android:title="Lịch khám" />
+    <item
+        android:id="@+id/m_noCofrimForDay"
+        android:icon="@drawable/date"
+        android:title="Hôm nay" />
+    <item
+        android:id="@+id/m_statisticalDoctor"
+        android:icon="@drawable/thongke"
+        android:title="Thống kê" />
+    <item
+        android:id="@+id/m_yesCofrim"
+        android:icon="@drawable/ic_check"
+        android:title="Đã khám" />
+    <item
+        android:id="@+id/m_inforDoctor"
+        android:icon="@drawable/user"
+        android:title="Tài khoản" />
+
+</menu>

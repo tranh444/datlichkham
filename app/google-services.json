@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956454665085",
+    "firebase_url": "https://appdatlichkhamcodedoan-default-rtdb.firebaseio.com",
+    "project_id": "appdatlichkhamcodedoan",
+    "storage_bucket": "appdatlichkhamcodedoan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956454665085:android:c7c86272e2701b19696a14",
+        "android_client_info": {
+          "package_name": "com.example.datlichkham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956454665085-88ihv5pkqod612l1dq7v1jd39agndehn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datlichkham",
+            "certificate_hash": "f30c3aab663e538311edc9429d1126a578872d10"
+          }
+        },
+        {
+          "client_id": "956454665085-erjsgg03m03cug4svup7l936n1ltui60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSIZe_Fg8nrFcc_W-e9tZHEXgxy1jTXM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956454665085-erjsgg03m03cug4svup7l936n1ltui60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
